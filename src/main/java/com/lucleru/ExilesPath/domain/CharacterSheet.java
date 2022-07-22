@@ -6,8 +6,6 @@ import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import com.lucleru.exilespath.dto.AttributesDto;
-
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -25,7 +23,7 @@ public class CharacterSheet implements  Serializable {
 	private String epicPoints;
 	private String character;
 	private String corporation;
-	private AttributesDto attributes;
+	private Attributes attributes;
 
 
 }
