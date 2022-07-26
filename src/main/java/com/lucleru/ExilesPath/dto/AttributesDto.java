@@ -8,8 +8,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@EqualsAndHashCode
-public class AttributesDto  implements Serializable{
+@EqualsAndHashCode(callSuper = true)
+public class AttributesDto extends AbstractDto<Long>  implements Serializable{
 	private String charisma ;
 	private String perception ;
 	private String intelligence ;

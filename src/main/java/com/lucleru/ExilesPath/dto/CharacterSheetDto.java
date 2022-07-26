@@ -1,13 +1,15 @@
 package com.lucleru.ExilesPath.dto;
 
+import java.io.Serializable;
+
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@EqualsAndHashCode
-public class CharacterSheetDto {
+@EqualsAndHashCode(callSuper = true)
+public class CharacterSheetDto extends AbstractDto<Long>  implements Serializable {
 	
 	private String playerName;
 	private String characterName;
