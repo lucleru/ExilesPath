@@ -1,4 +1,4 @@
-package com.lucleru.exilespath.dto;
+package com.lucleru.ExilesPath.dto;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

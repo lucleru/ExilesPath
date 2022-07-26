@@ -1,4 +1,4 @@
-package com.lucleru.exilespath.mapper;
+package com.lucleru.ExilesPath.mapper;
 
 public interface AbstractMapper<E, D> {
 	D entityToDto (E entitiy);

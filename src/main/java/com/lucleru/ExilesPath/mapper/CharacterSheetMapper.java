@@ -1,9 +1,9 @@
-package com.lucleru.exilespath.mapper;
+package com.lucleru.ExilesPath.mapper;
 
 import org.mapstruct.Mapper;
 
-import com.lucleru.exilespath.domain.CharacterSheet;
-import com.lucleru.exilespath.dto.CharacterSheetDto;
+import com.lucleru.ExilesPath.domain.CharacterSheet;
+import com.lucleru.ExilesPath.dto.CharacterSheetDto;
 
 @Mapper
 public interface CharacterSheetMapper extends AbstractMapper<CharacterSheet, CharacterSheetDto> {

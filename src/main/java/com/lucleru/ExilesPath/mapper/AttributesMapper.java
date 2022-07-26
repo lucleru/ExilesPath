@@ -1,9 +1,9 @@
-package com.lucleru.exilespath.mapper;
+package com.lucleru.ExilesPath.mapper;
 
 import org.mapstruct.Mapper;
 
-import com.lucleru.exilespath.domain.Attributes;
-import com.lucleru.exilespath.dto.AttributesDto;
+import com.lucleru.ExilesPath.domain.Attributes;
+import com.lucleru.ExilesPath.dto.AttributesDto;
 
 @Mapper
 public interface AttributesMapper extends AbstractMapper<Attributes, AttributesDto> {

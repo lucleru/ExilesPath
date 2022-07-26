@@ -1,4 +1,4 @@
-package com.lucleru.exilespath.domain;
+package com.lucleru.ExilesPath.domain;
 
 
 import java.io.Serializable;

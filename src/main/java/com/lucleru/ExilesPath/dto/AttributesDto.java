@@ -1,4 +1,4 @@
-package com.lucleru.exilespath.dto;
+package com.lucleru.ExilesPath.dto;
 
 import java.io.Serializable;
 
